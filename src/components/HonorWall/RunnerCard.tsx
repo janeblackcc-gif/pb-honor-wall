@@ -50,7 +50,7 @@ export function RunnerCard({ runner }: RunnerCardProps) {
 
       {selectedPB && runner.records[selectedPB.event] && (
         <PBDetailModal
-          pb={runner.records[selectedPB.event]}
+          pb={runner.records[selectedPB.event]!}
           runnerName={selectedPB.runnerName}
           onClose={() => setSelectedPB(null)}
         />
