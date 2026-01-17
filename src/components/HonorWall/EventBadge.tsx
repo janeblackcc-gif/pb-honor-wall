@@ -10,6 +10,7 @@ interface EventBadgeProps {
 
 const EVENT_STYLES: Record<EventType, string> = {
   '1km': 'bg-yellow-100 text-yellow-800 border-yellow-200',
+  '1500m': 'bg-teal-100 text-teal-800 border-teal-200',
   '3km': 'bg-orange-100 text-orange-800 border-orange-200',
   '5km': 'bg-emerald-100 text-emerald-800 border-emerald-200',
   '10km': 'bg-blue-100 text-blue-800 border-blue-200',

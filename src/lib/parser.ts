@@ -5,6 +5,9 @@ import { parseTimeToSeconds, validateTimeFormat } from './time';
 const VALID_EVENTS: Record<string, EventType> = {
   '1km': '1km',
   '1k': '1km',
+  '1500m': '1500m',
+  '1.5km': '1500m',
+  '1500': '1500m',
   '3km': '3km',
   '3k': '3km',
   '5km': '5km',

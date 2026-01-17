@@ -1,4 +1,4 @@
-export type EventType = '1km' | '3km' | '5km' | '10km' | '半马' | '全马';
+export type EventType = '1km' | '1500m' | '3km' | '5km' | '10km' | '半马' | '全马';
 
 export interface RawRecord {
   Name: string;

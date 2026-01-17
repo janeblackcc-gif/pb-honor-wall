@@ -8,7 +8,7 @@ interface RunnerCardProps {
   runner: Runner;
 }
 
-const DISPLAY_ORDER: EventType[] = ['1km', '3km', '5km', '10km', '半马', '全马'];
+const DISPLAY_ORDER: EventType[] = ['1km', '1500m', '3km', '5km', '10km', '半马', '全马'];
 
 export function RunnerCard({ runner }: RunnerCardProps) {
   const hasRecords = Object.keys(runner.records).length > 0;
